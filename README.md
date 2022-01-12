@@ -7,6 +7,9 @@ A Flask app that lists your top 10 Movies. Day 31 Python Bootcamp
 This app uses Flask, SQLAlchemy and the [The Movie Database API](https://www.themoviedb.org/documentation/api)
 to list your top 10 movies.
 
+To use this application, you will need a free API key from [The Movie Database API](https://www.themoviedb.org/documentation/api). It can be stored in a .env file and called using the python-dotenv package
+found in `requirements.txt`.
+
 The app allows you to do CRUD funcitons by adding a movie, reading saved movies
 from the database, updating rating and description and deleting movies.
 
